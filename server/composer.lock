@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0795d59e107af574c1ce556248603dcb",
+    "packages": [
+        {
+            "name": "mitchellston/form_validation",
+            "version": "dev-BUGFIXES-Version1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mitchellston/form_validation.git",
+                "reference": "be1a19566e3f163cd760e76450a4e409f4bc688c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mitchellston/form_validation/zipball/be1a19566e3f163cd760e76450a4e409f4bc688c",
+                "reference": "be1a19566e3f163cd760e76450a4e409f4bc688c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "vimeo/psalm": "4.29.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Validation\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "This should help with validating POST and GET request in PHP!",
+            "support": {
+                "issues": "https://github.com/mitchellston/form_validation/issues",
+                "source": "https://github.com/mitchellston/form_validation/tree/BUGFIXES-Version1.0"
+            },
+            "time": "2022-11-24T14:56:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mitchellston/form_validation": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

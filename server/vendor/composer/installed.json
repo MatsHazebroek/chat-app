@@ -1,0 +1,46 @@
+{
+    "packages": [
+        {
+            "name": "mitchellston/form_validation",
+            "version": "dev-BUGFIXES-Version1.0",
+            "version_normalized": "dev-BUGFIXES-Version1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mitchellston/form_validation.git",
+                "reference": "be1a19566e3f163cd760e76450a4e409f4bc688c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mitchellston/form_validation/zipball/be1a19566e3f163cd760e76450a4e409f4bc688c",
+                "reference": "be1a19566e3f163cd760e76450a4e409f4bc688c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "vimeo/psalm": "4.29.0"
+            },
+            "time": "2022-11-24T14:56:10+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Validation\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "This should help with validating POST and GET request in PHP!",
+            "support": {
+                "issues": "https://github.com/mitchellston/form_validation/issues",
+                "source": "https://github.com/mitchellston/form_validation/tree/BUGFIXES-Version1.0"
+            },
+            "install-path": "../mitchellston/form_validation"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

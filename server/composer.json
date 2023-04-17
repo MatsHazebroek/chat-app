@@ -1,0 +1,14 @@
+{
+	"name": "mats/chat-app",
+	"autoload": {
+		"psr-4": {
+			"Mats\\AudiotourApi\\": "src/"
+		},
+		"classmap": [
+			"./vendor/mitchellston/"
+		]
+	},
+	"require": {
+		"mitchellston/form_validation": "dev-BUGFIXES-Version1.0"
+	}
+}

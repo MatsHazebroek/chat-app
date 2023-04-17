@@ -1,0 +1,5 @@
+<?php
+$MAAKMEALSJEBLIEFTDOODDDDDDDDDD = ["poep" => "kaas"];
+
+echo json_encode($MAAKMEALSJEBLIEFTDOODDDDDDDDDD);
+exit;

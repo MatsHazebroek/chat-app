@@ -1,0 +1,18 @@
+{
+
+  "name": "mitchellston/form_validation",
+  "description": "This should help with validating POST and GET request in PHP!",
+  "license": ["MIT"],
+  "type": "library",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Validation\\": "src/"
+    }
+  },
+  "require-dev": {
+    "vimeo/psalm": "4.29.0"
+  }
+}
